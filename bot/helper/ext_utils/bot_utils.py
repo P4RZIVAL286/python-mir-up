@@ -415,7 +415,7 @@ CPU: {cpu}% | RAM: {mem}%
 Disk: {total} | Free: {free}
 Used: {used} [{disk}%]
 
-Made with ❤️ by Dawn
+G-Drive Bot
 """
     return stats
 
