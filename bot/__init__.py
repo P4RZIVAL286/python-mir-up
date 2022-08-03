@@ -479,16 +479,16 @@ try:
     if len(CHANNEL_USERNAME) == 0:
         raise KeyError
 except KeyError:
-    log_info("CHANNEL_USERNAME not provided! Using default @Z_Mirror")
-    CHANNEL_USERNAME = "z_mirror"
+    log_info("CHANNEL_USERNAME not provided! Using default @arca8e_channel")
+    CHANNEL_USERNAME = "arca8e_channel"
 try:
     FSUB_CHANNEL_ID = getConfig("FSUB_CHANNEL_ID")
     if len(FSUB_CHANNEL_ID) == 0:
         raise KeyError
     FSUB_CHANNEL_ID = int(FSUB_CHANNEL_ID)
 except KeyError:
-    log_info("CHANNEL_ID not provided! Using default id of @Z_Mirror")
-    FSUB_CHANNEL_ID = -1001232292892
+    log_info("CHANNEL_ID not provided! Using default id of @Z_Mirror_channel")
+    FSUB_CHANNEL_ID = -1001677651651
 try:
     BOT_PM = getConfig('BOT_PM')
     BOT_PM = BOT_PM.lower() == 'true'
@@ -497,9 +497,9 @@ except KeyError:
 try:
     TITLE_NAME = getConfig('TITLE_NAME')
     if len(TITLE_NAME) == 0:
-        TITLE_NAME = 'Z-Mirror'
+        TITLE_NAME = 'G-Drive Bot'
 except KeyError:
-    TITLE_NAME = 'Z-Mirror'
+    TITLE_NAME = 'G-Drive Bot'
 try:
     TOKEN_PICKLE_URL = getConfig('TOKEN_PICKLE_URL')
     if len(TOKEN_PICKLE_URL) == 0:
